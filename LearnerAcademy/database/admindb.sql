@@ -128,17 +128,17 @@ CREATE TABLE `students` (
 
 INSERT INTO `students` (`id`, `fname`, `lname`, `age`, `class`) VALUES 
 
-(1, 'sai', 'kumar', 20, 1), 
+(1, 'Bhavana', 'Gudivada', 20, 1), 
 
-(2, 'krishna', 'teja', 19, 2), 
+(2, 'Srujana', 'Gunupudi', 19, 2), 
 
-(3, 'bharath', 'reddy', 18, 1), 
+(3, 'Janaki', 'Puvvada', 18, 1), 
 
-(4, 'chandana', 'chandu', 19, 2), 
+(4, 'Sriram', 'Satyavarapu', 19, 2), 
 
-(5, 'cathrine', 'vinuthna', 24, 1), 
+(5, 'Kalyan', 'Garapati', 24, 1), 
 
-(6, 'sharvan', 'kumar', 26, 2); 
+(6, 'Vamsi', 'Grandi', 26, 2); 
 
 drop table students; 
 
@@ -188,7 +188,7 @@ INSERT INTO `subjects` (`id`, `name`, `shortcut`) VALUES
 
 (3, 'HINDI', 'Hin'), 
 
-(4, 'SCINCE', 'Sci'); 
+(4, 'MATHEMATICS', 'Maths'); 
 
 select * from subjects; 
 
@@ -232,9 +232,9 @@ CREATE TABLE `teachers` (
 
 INSERT INTO `teachers` (`id`, `fname`, `lname`, `age`) VALUES 
 
-(3, 'prithvi', 'meghana', '78'), 
+(3, 'Surendra', 'Mullapudi', '78'), 
 
-(4, 'goldie', 'sharat', '64'); 
+(4, 'Pavan', 'Vemagiri', '64'); 
 
 drop table teachers; 
 
